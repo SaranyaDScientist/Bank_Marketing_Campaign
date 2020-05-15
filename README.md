@@ -14,7 +14,7 @@ The Portuguese bank would like to identify existing clients that have higher cha
 term deposit and focus marketing effort on such clients.
 Find the best strategies to improve for the next marketing campaign. How can the financial institution have a greater effectiveness for future marketing campaigns? In order to answer this, we have to analyze the last marketing campaign the bank performed and identify the patterns that will help us find conclusions in order to develop future strategies.
 
-# Data Understanding:
+# Data Understanding/Exploratory Data Analysis:
 Once the data have been collected, we have to understand each and every variable of the data and its characteristics. This can be done by checking number and type of features, descriptive statistics and visualizations, missing values, inconsistent data records etc.
 
 #### Shape of the dataset – 45211 Rows & 17 Columns
