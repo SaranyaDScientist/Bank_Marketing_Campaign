@@ -1,5 +1,7 @@
 
-# PROBLEM STATEMENT
+# BANK MARKETING CAMPAIGN
+
+# Problem Statement:
 
 There has been a revenue decline for the Portuguese bank and they would like to know what actions
 to take. After investigation, we found out that the root cause is that their clients are not depositing
