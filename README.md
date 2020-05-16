@@ -28,16 +28,16 @@ Once the data have been collected, we have to understand each and every variable
 **Descriptive Statistics -**
 ![Descriptive Statistics](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_desc_stats.png)
 
-#### Data Visualization (Univariate Analysis) - 
+### Data Visualization (Univariate Analysis) - 
 From the Univariate analysis, we can understand the central tendency and spread of numerical variables and the proportion of the various levels of categorical variables. Here, numerical variables are analysed through  **Distribution plots** and categorical variables are analysed through **Count plots**.
 
-#### Outliers -
+### Outliers -
 Outliers are data points that are far from other data points. In other words, they are unusual values in a dataset. In this case, there are unusual values but are not treating them as outliers as those are the cases that are more likely to subscribe a term deposit.
 
-#### Data Visualization (Bivariate Analysis) - 
+### Data Visualization (Bivariate Analysis) - 
 From the Bivariate analysis, we can Understand the relationship between 2 variables. Here, the relationship between the dependent variable is analysed with each independent variable using the **Count plot of the crosstabs**
 
-#### Data Visualization (Multivariate Analysis) - 
+### Data Visualization (Multivariate Analysis) - 
 From the **pairplot**, the impact of various X variables on Y variable are visualized, thereby giving clues for feature selection.
 
 
@@ -51,14 +51,14 @@ A heatmap is a data visualization technique that shows magnitude of a phenomenon
 
 # Modelling:
 
-#### Logistic Regression -
+## Logistic Regression -
 Logistic regression is a statistical method for analysing a dataset in which there are one or more independent variables that determine an outcome. The outcome is measured with a dichotomous variable (in which there are only two possible outcomes). It is used to predict a binary outcome (1 / 0, Yes / No, True / False) given a set of independent variables.
 
 **Training Accuracy: 0.90**
 
 **Testing Accuracy: 0.86**
 
-#### Decision Tree -
+## Decision Tree -
 Linear regression and logistic regression models fail in situations where the relationship between features and outcome is nonlinear or where features interact with each other. Time to shine for the decision tree! Tree based models split the data multiple times according to certain cut-off values in the features. Through splitting, different subsets of the dataset are created, with each instance belonging to one subset. The final subsets are called terminal or leaf nodes and the intermediate subsets are called internal nodes or split nodes. To predict the outcome in each leaf node, the average outcome of the training data in this node is used. Trees can be used for classification and regression. There are various algorithms that can grow a tree. They differ in the possible structure of the tree (e.g. number of splits per node), the criteria how to find the splits, when to stop splitting and how to estimate the simple models within the leaf nodes. The classification and regression trees (CART) algorithm is probably the most popular algorithm for tree induction. We will focus on CART, but the interpretation is similar for most other tree types.
 
 **Gini -**
