@@ -58,16 +58,16 @@ Logistic regression is a statistical method for analysing a dataset in which the
 
 **Testing Accuracy: 0.86**
 
-## Decision Tree -
+## Decision Tree Classifier -
 Linear regression and logistic regression models fail in situations where the relationship between features and outcome is nonlinear or where features interact with each other. Time to shine for the decision tree! Tree based models split the data multiple times according to certain cut-off values in the features. Through splitting, different subsets of the dataset are created, with each instance belonging to one subset. The final subsets are called terminal or leaf nodes and the intermediate subsets are called internal nodes or split nodes. To predict the outcome in each leaf node, the average outcome of the training data in this node is used. Trees can be used for classification and regression. There are various algorithms that can grow a tree. They differ in the possible structure of the tree (e.g. number of splits per node), the criteria how to find the splits, when to stop splitting and how to estimate the simple models within the leaf nodes. The classification and regression trees (CART) algorithm is probably the most popular algorithm for tree induction. We will focus on CART, but the interpretation is similar for most other tree types.
 
-**Gini -**
+## Gini -
 
 **Training Accuracy: 0.81**
 
 **Testing Accuracy: 0.77**
 
-**Entropy -**
+## Entropy -
 
 **Training Accuracy: 1.0**
 
@@ -75,7 +75,7 @@ Linear regression and logistic regression models fail in situations where the re
 
 Decision Tree - Entropy is an overfitting model as the training accuracy is 100% but the model fails to perform well in testing. Lets try pruning the decision tree which avoids overfitting. Pruning is a technique in machine learning and search algorithms that reduces the size of decision trees by removing sections of the tree that provide little power to classify instances. Pruning reduces the complexity of the final classifier, and hence improves predictive accuracy by the reduction of over fitting.
 
-**Entropy (Pruned) -**
+## Entropy (Pruned) -
 
 **Training Accuracy: 0.85**
 
@@ -83,3 +83,44 @@ Decision Tree - Entropy is an overfitting model as the training accuracy is 100%
 
 ![Decision Tree](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BankMarketingDT.png)
 
+## Random Forest Classifier -
+This is a classifier that evolves from decision trees. It actually consists of many decision trees. To classify a new instance, each decision tree provides a classification for input data; random forest collects the classifications and chooses the most voted prediction as the result. The input of each tree is sampled data from the original dataset. In addition, a subset of features is randomly selected from the optional features to grow the tree at each node. Each tree is grown without pruning. Essentially, random forest enables a large number of weak or weakly-correlated classifiers to form a strong classifier.
+
+**Training accuracy: 1.0**
+
+**Testing accuracy: 0.90**
+
+Random Forest Classifier is also an overfitting model.
+
+## Gradient Boosting Classifier -
+Gradient boosting classifiers are a group of machine learning algorithms that combine many weak learning models together to create a strong predictive model. Decision trees are usually used when doing gradient boosting. 
+
+**Testing accuracy: 0.887864936596874**
+
+**Training Accuracy: 0.9286968046998137**
+
+## CROSS VALIDATION:
+Cross validation is a powerful tool that is used for estimating the predictive power of your model, and it performs better than the conventional training and test set. Using cross validation, we can create multiple training and test sets and average the scores to give us a less biased metric.
+
+**K-Fold Cross Validation:** Cross-validation is a resampling procedure used to evaluate machine learning models on a limited data sample. The procedure has a single parameter called k that refers to the number of groups that a given data sample is to be split into. As such, the procedure is often called k-fold cross-validation. When a specific value for k is chosen, it may be used in place of k in the reference to the model, such as k=10 becoming 10-fold cross-validation. Cross-validation is primarily used in applied machine learning to estimate the skill of a machine learning model on unseen data. That is, to use a limited sample in order to estimate how the model is expected to perform in general when used to make predictions on data not used during the training of the model.
+
+From the KFold Cross Validation, The model that has low bias error and variance error is Random Forest. Since it is an overfitting model, we can take the next model which has low variance and bias error. Gradient Boosting Classifier is the best model both in terms of accuracy and bias and variance error.
+
+![Bias_Var_Error](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_bias_var.png)
+
+## Model Comaparison -
+Comparing the boxplots of all the models with AUC in y axis.
+
+![Model_Comparison](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_model_comp.png)
+
+## ROC Curves - 
+A receiver operating characteristic (ROC) curve calculates the false positive rates and true positive rates across different thresholds.
+The ROC curves for all the models is given below.
+
+![ROC_curve](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_roc.png)
+
+## Important Features from the Model -
+Those variables which have positive or negative higher coeeficients are the most important features of the model. 
+The important features of the model are
+
+![Feature_importance](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_feat_imp.png)
