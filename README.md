@@ -27,5 +27,7 @@ Once the data have been collected, we have to understand each and every variable
 ![Descriptive Statistics](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_Descriptive_Stats.png)
 
 #### Data Visualization (Univariate Analysis) - 
-From the Univariate analysis, we can understand the central tendency and spread of numerical variables and the proportion of the various levels of categorical variables. Here, numerical variables are analysed through  **Distribution plots** and categorical variables are analysed through **Count plot**.
+From the Univariate analysis, we can understand the central tendency and spread of numerical variables and the proportion of the various levels of categorical variables. Here, numerical variables are analysed through  **Distribution plots** and categorical variables are analysed through **Count plots**.
+
+#### Data Visualization (Bivariate Analysis) - 
 
