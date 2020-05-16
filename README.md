@@ -21,13 +21,25 @@ Once the data have been collected, we have to understand each and every variable
 
 **Type of features – 10 Objects & 7 Integers**
 
+**Target Variable - y (object) - [Yes,No] - Binary Classification**
+
 **Missing Values – No missing values**
 
 **Descriptive Statistics -**
-![Descriptive Statistics](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_Descriptive_Stats.png)
+![Descriptive Statistics](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_desc_stats.png)
 
 #### Data Visualization (Univariate Analysis) - 
 From the Univariate analysis, we can understand the central tendency and spread of numerical variables and the proportion of the various levels of categorical variables. Here, numerical variables are analysed through  **Distribution plots** and categorical variables are analysed through **Count plots**.
 
+#### Outliers -
+Outliers are data points that are far from other data points. In other words, they are unusual values in a dataset. In this case, there are unusual values but are not treating them as outliers as those are the cases that are more likely to subscribe a term deposit.
+
 #### Data Visualization (Bivariate Analysis) - 
+From the Bivariate analysis, we can Understand the relationship between 2 variables. Here, the relationship between the dependent variable is analysed with each independent variable using the **Count plot of the crosstabs**
+
+#### Data Visualization (Multivariate Analysis) - 
+From the **pairplot**, the impact of various X variables on Y variable are visualized, thereby giving clues for feature selection
+
+**Pairplot -**
+![Pairplot](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_pairplot.png)
 
