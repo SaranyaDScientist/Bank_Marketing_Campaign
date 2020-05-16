@@ -17,15 +17,15 @@ Find the best strategies to improve for the next marketing campaign. How can the
 # Data Understanding/Exploratory Data Analysis:
 Once the data have been collected, we have to understand each and every variable of the data and its characteristics. This can be done by checking number and type of features, descriptive statistics and visualizations, missing values, inconsistent data records etc.
 
-**Shape of the dataset – 45211 Rows & 17 Columns
+**Shape of the dataset – 45211 Rows & 17 Columns**
 
-**Type of features – 10 Objects & 7 Integers
+**Type of features – 10 Objects & 7 Integers**
 
-**Missing Values – No missing values
+**Missing Values – No missing values**
 
-**Descriptive Statistics -  
+**Descriptive Statistics -**
 ![Descriptive Statistics](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_Descriptive_Stats.png)
 
 #### Data Visualization (Univariate Analysis) - 
-From the Univariate analysis, we can understand the central tendency and spread of numerical variables and the proportion of the various levels of categorical variables. Here, numerical variables are analysed through  **Distribution plots**and categorical variables are analysed through **Count plot**.
+From the Univariate analysis, we can understand the central tendency and spread of numerical variables and the proportion of the various levels of categorical variables. Here, numerical variables are analysed through  **Distribution plots** and categorical variables are analysed through **Count plot**.
 
