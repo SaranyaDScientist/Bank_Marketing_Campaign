@@ -40,7 +40,6 @@ From the Bivariate analysis, we can Understand the relationship between 2 variab
 ### Data Visualization (Multivariate Analysis) - 
 From the **pairplot**, the impact of various X variables on Y variable are visualized, thereby giving clues for feature selection.
 
-
 **Pairplot -**
 ![Pairplot](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_pairplot.png)
 
