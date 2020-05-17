@@ -54,32 +54,32 @@ A heatmap is a data visualization technique that shows magnitude of a phenomenon
 ## Logistic Regression -
 Logistic regression is a statistical method for analysing a dataset in which there are one or more independent variables that determine an outcome. The outcome is measured with a dichotomous variable (in which there are only two possible outcomes). It is used to predict a binary outcome (1 / 0, Yes / No, True / False) given a set of independent variables.
 
-**Training Accuracy: 0.90**
+**Training Accuracy: 0.906**
 
-**Testing Accuracy: 0.86**
+**Testing Accuracy: 0.862**
 
 ## Decision Tree Classifier -
 Linear regression and logistic regression models fail in situations where the relationship between features and outcome is nonlinear or where features interact with each other. Time to shine for the decision tree! Tree based models split the data multiple times according to certain cut-off values in the features. Through splitting, different subsets of the dataset are created, with each instance belonging to one subset. The final subsets are called terminal or leaf nodes and the intermediate subsets are called internal nodes or split nodes. To predict the outcome in each leaf node, the average outcome of the training data in this node is used. Trees can be used for classification and regression. There are various algorithms that can grow a tree. They differ in the possible structure of the tree (e.g. number of splits per node), the criteria how to find the splits, when to stop splitting and how to estimate the simple models within the leaf nodes. The classification and regression trees (CART) algorithm is probably the most popular algorithm for tree induction. We will focus on CART, but the interpretation is similar for most other tree types.
 
 ## Gini -
 
-**Training Accuracy: 0.81**
+**Training Accuracy: 0.811**
 
-**Testing Accuracy: 0.77**
+**Testing Accuracy: 0.763**
 
 ## Entropy -
 
-**Training Accuracy: 1.0**
+**Training Accuracy: 1.000**
 
-**Testing Accuracy: 0.87**
+**Testing Accuracy: 0.870**
 
 Decision Tree - Entropy is an overfitting model as the training accuracy is 100% but the model fails to perform well in testing. Lets try pruning the decision tree which avoids overfitting. Pruning is a technique in machine learning and search algorithms that reduces the size of decision trees by removing sections of the tree that provide little power to classify instances. Pruning reduces the complexity of the final classifier, and hence improves predictive accuracy by the reduction of over fitting.
 
 ## Entropy (Pruned) -
 
-**Training Accuracy: 0.85**
+**Training Accuracy: 0.851**
 
-**Testing Accuracy: 0.86**
+**Testing Accuracy: 0.862**
 
 ![Decision Tree](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BankMarketingDT.png)
 
@@ -88,16 +88,16 @@ This is a classifier that evolves from decision trees. It actually consists of m
 
 **Training accuracy: 1.0**
 
-**Testing accuracy: 0.90**
+**Testing accuracy: 0.899**
 
 Random Forest Classifier is also an overfitting model.
 
 ## Gradient Boosting Classifier -
 Gradient boosting classifiers are a group of machine learning algorithms that combine many weak learning models together to create a strong predictive model. Decision trees are usually used when doing gradient boosting. 
 
-**Testing accuracy: 0.887864936596874**
+**Testing accuracy: 0.888**
 
-**Training Accuracy: 0.9286968046998137**
+**Training Accuracy: 0.929**
 
 ## CROSS VALIDATION:
 Cross validation is a powerful tool that is used for estimating the predictive power of your model, and it performs better than the conventional training and test set. Using cross validation, we can create multiple training and test sets and average the scores to give us a less biased metric.
