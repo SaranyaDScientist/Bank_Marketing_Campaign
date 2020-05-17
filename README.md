@@ -106,18 +106,18 @@ Cross validation is a powerful tool that is used for estimating the predictive p
 
 From the KFold Cross Validation, The model that has low bias error and variance error is Random Forest. Since it is an overfitting model, we can take the next model which has low variance and bias error. Gradient Boosting Classifier is the best model both in terms of accuracy and bias and variance error.
 
-![Bias_Var_Error](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_bias_var.png)
+![Bias Variance Error](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_bias_var.png)
 
 ## Model Comaparison -
 Comparing the boxplots of all the models with AUC in y axis.
 
-![Model_Comparison](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_model_comp.png)
+![Model Comparison](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_model_comp.png)
 
 ## ROC Curves - 
 A receiver operating characteristic (ROC) curve calculates the false positive rates and true positive rates across different thresholds.
 The ROC curves for all the models is given below.
 
-![ROC_curve](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_roc.png)
+![ROC curve](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_roc.png)
 
 ## Important Features from the Model -
 Those variables which have positive or negative higher coeeficients are the most important features of the model. 
