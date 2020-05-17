@@ -122,7 +122,7 @@ Comparing the boxplots of all the models with AUC in y axis.
 ![Model Comparison](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_model_comp.png)
 
 ## ROC Curves - 
-A receiver operating characteristic (ROC) curve calculates the false positive rates and true positive rates across different thresholds.
+Since it is a binary classification problem, we use ROC_AUC as a metric. A receiver operating characteristic (ROC) curve calculates the false positive rates and true positive rates across different thresholds.
 The ROC curves for all the models is given below.
 
 ![ROC curve](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_roc.png)
