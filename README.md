@@ -49,6 +49,14 @@ A heatmap is a data visualization technique that shows magnitude of a phenomenon
 **Heatmap -**
 ![Heatmap](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_corr.png)
 
+**Class Imbalance -**
+There is a high imbalance in class. If we apply classifier models on the highly imbalanced dataset, they are likely to predict everything as negative (the majority class). So, we can either undersample the majority class of oversample the minority class.
+
+![Class Imbalance](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_smote.png)
+
+**Synthetic Minority Over-sampling Technique (SMOTE) -**
+One common way to tackle the issue of imbalanced data is over-sampling. Over-sampling refers to various methods that aim to increase the number of instances from the underrepresented class in the data set. SMOTE oversamples the minority class. SMOTE creates new (synthetic) observations based on the observations in your data. The minority class is over-sampled by taking each minority class sample and introducing synthetic examples along the line segments joining any/all of the k minority class nearest neighbours. Depending upon the amount of over-sampling required, neighbours from the k nearest neighbours are randomly chosen.
+
 # Modelling:
 
 ## Logistic Regression -
@@ -124,3 +132,12 @@ Those variables which have positive or negative higher coeeficients are the most
 The important features of the model are
 
 ![Feature_importance](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_feat_imp.png)
+
+# Inference
+#### What type of customers Subscribe term deposits?
+
+Based on the Gradient Boosting Classifier model, the following are the potential types of customers who will subscribe for the term deposit:
+
+1. Duration is the highly correlated feature. Customers who have engaged in high duration when contacted have a very high likelihood to subscribe for the term deposit. Obviously, this shows the interest of the customer in subscribing a term deposit.
+
+2. Customers who have a housing loan are more likely to subscribe for a term deposit.
