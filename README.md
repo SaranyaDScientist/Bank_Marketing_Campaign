@@ -1,6 +1,8 @@
 
 # BANK MARKETING CAMPAIGN
 
+### Source - https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
+
 # Problem Statement:
 
 There has been a revenue decline for the Portuguese bank and they would like to know what actions
@@ -38,14 +40,15 @@ Outliers are data points that are far from other data points. In other words, th
 From the Bivariate analysis, we can Understand the relationship between 2 variables. Here, the relationship between the dependent variable is analysed with each independent variable using the **Count plot of the crosstabs**
 
 ### Data Visualization (Multivariate Analysis) - 
-From the **pairplot**, the impact of various X variables on Y variable are visualized, thereby giving clues for feature selection.
 
 **Pairplot -**
+From the **pairplot**, the impact of various X variables on Y variable are visualized, thereby giving clues for feature selection.
+
 ![Pairplot](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_pairplot.png)
 
+**Heatmap -**
 A heatmap is a data visualization technique that shows magnitude of a phenomenon as color in two dimensions. And using **heatmap**, the correlation between the variables are known. From that, we can also find out the highly correlated features.
 
-**Heatmap -**
 ![Heatmap](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_corr.png)
 
 **Class Imbalance -**
@@ -109,9 +112,10 @@ Gradient boosting classifiers are a group of machine learning algorithms that co
 ## CROSS VALIDATION:
 Cross validation is a powerful tool that is used for estimating the predictive power of your model, and it performs better than the conventional training and test set. Using cross validation, we can create multiple training and test sets and average the scores to give us a less biased metric.
 
-**K-Fold Cross Validation:** Cross-validation is a resampling procedure used to evaluate machine learning models on a limited data sample. The procedure has a single parameter called k that refers to the number of groups that a given data sample is to be split into. As such, the procedure is often called k-fold cross-validation. When a specific value for k is chosen, it may be used in place of k in the reference to the model, such as k=10 becoming 10-fold cross-validation. Cross-validation is primarily used in applied machine learning to estimate the skill of a machine learning model on unseen data. That is, to use a limited sample in order to estimate how the model is expected to perform in general when used to make predictions on data not used during the training of the model.
+### K-Fold Cross Validation: 
+Cross-validation is a resampling procedure used to evaluate machine learning models on a limited data sample. The procedure has a single parameter called k that refers to the number of groups that a given data sample is to be split into. As such, the procedure is often called k-fold cross-validation. When a specific value for k is chosen, it may be used in place of k in the reference to the model, such as k=10 becoming 10-fold cross-validation. Cross-validation is primarily used in applied machine learning to estimate the skill of a machine learning model on unseen data. That is, to use a limited sample in order to estimate how the model is expected to perform in general when used to make predictions on data not used during the training of the model.
 
-From the KFold Cross Validation, The model that has low bias error and variance error is Random Forest. Since it is an overfitting model, we can take the next model which has low variance and bias error. Gradient Boosting Classifier is the best model both in terms of accuracy and bias and variance error.
+**From the KFold Cross Validation, The model that has low bias error and variance error is Random Forest. Since it is an overfitting model, we can take the next model which has low variance and bias error. Gradient Boosting Classifier is the best model both in terms of accuracy and bias and variance error.**
 
 ![Bias Variance Error](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_bias_var.png)
 
@@ -137,6 +141,6 @@ The important features of the model are
 
 Based on the Gradient Boosting Classifier model, the following are the potential types of customers who will subscribe for the term deposit:
 
-1. Duration is the highly correlated feature. Customers who have engaged in high duration when contacted have a very high likelihood to subscribe for the term deposit. Obviously, this shows the interest of the customer in subscribing a term deposit.
+1. **Duration** is the highly correlated feature. Customers who have engaged in high duration when contacted have a very high likelihood to subscribe for the term deposit. Obviously, this shows the interest of the customer in subscribing a term deposit.
 
-2. Customers who have a housing loan are more likely to subscribe for a term deposit.
+2. Customers who have a **housing loan** are more likely to subscribe for a term deposit.
