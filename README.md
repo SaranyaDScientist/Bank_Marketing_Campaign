@@ -120,7 +120,7 @@ Cross-validation is a resampling procedure used to evaluate machine learning mod
 ![Bias Variance Error](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_bias_var.png)
 
 ## Model Comaparison -
-Comparing the boxplots of all the models with AUC in y axis.
+Comparing the boxplots of all the models with ROC-AUC in y axis as it is a classification problem.
 
 ![Model Comparison](https://github.com/SaranyaDScientist/Data_Science_Projects/blob/master/BMC_model_comp.png)
 
